@@ -5,7 +5,7 @@
 ## KuCoin Lending Export Tool
 
 Koinly doesn't seem to be able to export lending data and KuCoin's Python SDK doesn't have a supported method for
-exporting details on each individual loan.
+exporting details on each individual loan. (oh yeah, and KuCoin doesn't given you an option to export it from their website 🙄)
 
 This short python script uses the KuCoin API to export all **Settled Lending Orders** and saves it to a CSV file. It
 will also create
